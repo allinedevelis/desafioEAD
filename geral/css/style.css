@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 80px;
+    border-bottom: 2px solid #000;
+    padding-top: 20px;
+    color: #FFF;
+    background-color: steelblue;
+}
+form, table {
+    margin-left: 20px;
+}
+#boxLogout > a{
+    text-align: right;
+    float: right;
+    padding: 7px 35px;
+    background-color: skyblue;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btnDefault, .btnTelas, .btnPrincipal {
+    background-color: steelblue;
+    color: #FFF;
+    display: inline-block;
+    border: none;
+    padding: 10px 35px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btnPrincipal {
+    background-color: #c40909;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.btnTelas {
+    background-color: #777;
+    margin-right: 20px;
+}
+.defaultForm .field > label {
+    width: 150px;
+    float: left;
+}
+.defaultForm .field > label[id='lblManterSessao']{
+	float: none;
+}
+.defaultForm .field > input, .defaultForm .field > select{
+	margin-bottom: 10px;
+}
